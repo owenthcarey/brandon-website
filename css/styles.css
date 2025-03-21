@@ -123,6 +123,13 @@ header.fixed {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--white);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.logo a {
+  color: var(--white);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .logo img {
@@ -142,12 +149,16 @@ nav li {
 
 nav a {
   color: var(--white);
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  padding: 5px 0;
 }
 
 nav a:hover {
-  color: var(--light-gray);
+  color: var(--white);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav a::after {
